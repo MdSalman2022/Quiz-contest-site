@@ -34,7 +34,7 @@ const QuestionCard = ({ question, arrIndex }) => {
     }
 
     return (
-        <div className="card w-80 lg:w-full container mx-auto m-5 bg-neutral text-neutral-content">
+        <div className="card w-80 lg:w-full container mx-auto m-5 bg-neutral text-neutral-content shadow-xl">
             <div className="card-body text-left">
                 <div className='flex align-center justify-between'>
                     <h2 className="card-title">Quiz-{arrIndex + 1}: {question.question}</h2>
@@ -45,7 +45,7 @@ const QuestionCard = ({ question, arrIndex }) => {
                         {
                             options.map(option =>
                                 <label className="label cursor-pointer justify-start gap-5">
-                                    <input onClick={() => result(option)} type="radio" name="radio-6" className="radio radio-primary checked:bg-info" />
+                                    <input onClick={() => result(option)} type="radio" name="radio-6" className="radio radio-primary checked:bg-secondary" />
                                     <span className="label-text text-white ">{option}</span>
                                 </label>
 
