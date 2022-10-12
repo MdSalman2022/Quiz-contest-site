@@ -15,7 +15,7 @@ const TopicCard = (props) => {
                 <p>Number of questions: {total}</p>
                 <div className="card-actions justify-end">
                     <Link to={`/quiz/${id}`} >
-                        <button className="btn btn-neutral text-white">Start Quiz <FontAwesomeIcon className='px-2' icon={faArrowRight} /></button>
+                        <button className="btn btn-neutral text-white">Attempt Quiz <FontAwesomeIcon className='px-2' icon={faArrowRight} /></button>
                     </Link>
 
                 </div>
