@@ -1,7 +1,7 @@
 # QuizGenius is a Online quiz website project
 
 #Live Site Link: 
-Open [https://quizgenius-mdsalman.netlify.app/] (https://quizgenius-mdsalman.netlify.app/) to view it in your browser.
+Open [https://quizgenius-mdsalman.netlify.app/](https://quizgenius-mdsalman.netlify.app/) to view it in your browser.
 [live Site](https://quizgenius-mdsalman.netlify.app/)
 
 ## Features:
