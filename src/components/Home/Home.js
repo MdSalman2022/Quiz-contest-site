@@ -14,9 +14,9 @@ const Home = () => {
         <div className="topics container lg:mx-auto">
             <br />
             <div className="container mx-auto">
-                <div className="carousel w-full rounded-3xl">
-                    <div id="item1" className="carousel-item w-full">
-                        <img className='w-full mx-auto h-full' src="https://i.ibb.co/DD4w4zp/quiz-Copy.jpg" alt="quiz-banner" border="0" />
+                <div className="carousel mx-auto w-96 lg:w-full rounded-3xl">
+                    <div id="item1" className="carousel-item w-96 lg:w-full ">
+                        <img className='w-96 lg:w-full mx-auto h-full' src="https://i.ibb.co/DD4w4zp/quiz-Copy.jpg" alt="quiz-banner" border="0" />
                     </div>
                 </div>
             </div>
