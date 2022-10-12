@@ -1,4 +1,4 @@
-# QuizGenius is a a quiz-site project
+# QuizGenius is a quiz-site project
 
 ## Features:
 
