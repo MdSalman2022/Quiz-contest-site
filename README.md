@@ -6,7 +6,7 @@ Open [https://quizgenius-mdsalman.netlify.app/](https://quizgenius-mdsalman.netl
 
 ## Features:
 
-### `One-page site`
+### `Single-page application`
 ### `Responsive design`
 ### `Quiz Topics`
 ### `Statistics`
