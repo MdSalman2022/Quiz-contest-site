@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className='container mx-auto px-10'>
-            {/* <div className="collapse collapse-arrow  rounded-box my-5">
+            <div className="collapse collapse-arrow  rounded-box my-5">
                 <input type="checkbox" className="peer" />
                 <div className="collapse-title bg-neutral text-neutral-content peer-checked:bg-info peer-checked:text-info-content">
                     1.What is the purpose of React router?
@@ -32,7 +32,7 @@ const Blog = () => {
                         The useRef returns a mutable ref object. This object has a property called .current. The value is persisted in the refContainer.current property. These values are accessed from the current property of the returned object. The .current property could be initialised to the passed argument initialValue e.g. useRef(initialValue). The object can persist a value for a full lifetime of the component.
                     </p>
                 </div>
-            </div> */}
+            </div>
         </div>
 
     );
