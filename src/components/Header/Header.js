@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-
+import './Header.css'
 const Header = () => {
     return (
         <div className="navbar bg-base-100 container mx-auto">
@@ -10,18 +10,18 @@ const Header = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                        <NavLink className='hover:bg-neutral hover:text-white px-2 py-1 rounded' to='/'>Topics</NavLink>
-                        <Link className=' hover:bg-neutral hover:text-white px-2 py-1 rounded' to='/statistics'>Statistics</Link>
-                        <Link className=' hover:bg-neutral hover:text-white px-2 py-1 rounded' to='/blog'>Blog</Link>
+                        <NavLink className={` px-2 py-1 rounded ${({ isActive }) => isActive ? 'active' : undefined}`} to='/'>Topics</NavLink>
+                        <NavLink className={` px-2 py-1 rounded  ${({ isActive }) => isActive ? 'active' : undefined}`} to='/statistics'>Statistics</NavLink>
+                        <NavLink className={` px-2 py-1 rounded  ${({ isActive }) => isActive ? 'active' : undefined}`} to='/blog'>Blog</NavLink>
                     </ul>
                 </div>
-                <Link to='/' className="btn btn-ghost normal-case text-2xl lg:text-3xl lg:font-bold">QuizGenius</Link>
+                <NavLink to='/' className="btn btn-ghost normal-case text-2xl lg:text-3xl lg:font-bold">QuizGenius</NavLink>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 header">
-                    <Link className=' hover:bg-neutral hover:text-white px-2 py-1 rounded' to='/'>Topics</Link>
-                    <Link className=' hover:bg-neutral hover:text-white px-2 py-1 rounded' to='/statistics'>Statistics</Link>
-                    <Link className=' hover:bg-neutral hover:text-white px-2 py-1 rounded' to='/blog'>Blog</Link>
+                    <NavLink className={` px-2 py-1 rounded ${({ isActive }) => isActive ? 'active' : undefined}`} to='/'>Topics</NavLink>
+                    <NavLink className={` px-2 py-1 rounded  ${({ isActive }) => isActive ? 'active' : undefined}`} to='/statistics'>Statistics</NavLink>
+                    <NavLink className={` px-2 py-1 rounded  ${({ isActive }) => isActive ? 'active' : undefined}`} to='/blog'>Blog</NavLink>
                 </ul>
             </div>
         </div>
