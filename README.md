@@ -1,3 +1,22 @@
+# QuizGenius is a a quiz-site project
+
+## Features:
+
+### `One-page site`
+### `Responsive design`
+### `Quiz Topics`
+### `Statistics`
+### `Blog`
+
+## Technology:
+
+### `React`
+### `Tailwind`
+### `React Router`
+### `React Hooks`
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
